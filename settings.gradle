@@ -1,0 +1,3 @@
+include ':userconsumerapp'
+include ':app'
+rootProject.name = "MyGithubSearch"

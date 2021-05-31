@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.spashscreen.SplashScreenActivity">
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/github"
+        android:layout_centerInParent="true"
+        android:id="@+id/iv_splash_screen"
+        android:contentDescription="@string/splash_image" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom= "true"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="@string/from_github"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        />
+
+</RelativeLayout>
